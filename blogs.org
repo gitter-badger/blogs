@@ -1,0 +1,175 @@
+* Blogs
+** BLOGS
+*** GOVERNEMENT
+- E-Governement                    | http://www.egovernment-computing.de
+
+*** SOCIAL MEDIA
+- Allfacebook                      | http://allfacebook.de
+- Thomas Hutter                    | http://www.thomashutter.com
+- Social Media Talk                | http://www.socialmedia-talk.com
+- Social Media Week                | https://socialmediaweek.org/news
+- My Social Web                    | http://www.mysocialweb.it
+
+*** MAGENTO
+- Alan Storm                       | http://alanstorm.com
+- Magento Quickies                 | http://magento-quickies.alanstorm.com
+- Limesoda                         | https://blog.limesoda.com
+- Aionhill                         | http://aionhill.com/ecommerce-blog
+
+*** COMMERCE
+- Ecommerce News                   | http://ecommercenews.eu
+- E-Commerce News                  | https://ecommerce-news-magazin.de
+- Carpathia                        | http://blog.carpathia.ch
+- Content-Driven Commerce          | http://www.content-driven-ecommerce.de
+- Trusted Shop                     | http://www.trustedshops.de/shop-info
+- E-Commerce Nation                | http://www.ecommerce-nation.fr
+- Capitain Commerce                | http://www.capitaine-commerce.com
+- Black Chili                      | http://www.blackchili.fr/blog-ecommerce
+- E-Commerce Mag.                  | http://www.ecommercemag.fr
+- Consomation                      | http://www.lsa-conso.fr
+- Ecommerce Wiki                   | https://www.ecommercewiki.org
+- European Data Portal             | http://www.europeandataportal.eu
+- Fedict                           | http://www.fedict.belgium.be/fr
+- Flupa                            | http://www.flupa.eu
+- Fevad                            | http://www.fevad.fr
+- Netcomm                          | http://www.netcommsuisse.ch/News.html
+- BVCM                             | http://www.bvcm.org
+- KMU Verband                      | http://www.kmuverband.ch
+- Bitkom                           | https://www.bitkom.org
+- Händlerbund                      | https://www.haendlerbund.de
+- Ecom                             | http://www.ecom.lu
+- Becommerce                       | https://www.becommerce.be
+- Ecommerce Foundation             | http://www.ecommercefoundation.org
+- Netcomm                          | http://www.netcommsuisse.ch
+- Ecommerce Europe                 | http://www.ecommerce-europe.eu
+- Dietmar Hölscher                 | https://dietmar.de
+
+*** KONVERSION
+- Usabilityblog.de                 | http://www.usabilityblog.de
+- Conversion Boosting              | http://conversionboosting.com/blog
+
+*** UX
+- Ux Fellows                       | http://www.uxfellows.com/blog
+- Usability Geek                   | http://usabilitygeek.com
+- Weexperience                     | http://www.wexperience.fr/blog
+- Usabilitygeek                    | http://usabilitygeek.com
+
+*** MARKETING
+- B2B Online Marketing             | http://www.onlinemarketing-blog.de
+- Kerstin Hoffmann                 | http://www.kerstin-hoffmann.de/pr-doktor
+- Mael Roth                        | http://maelroth.com
+- Hilker Consulting                | http://blog.hilker-consulting.de/blog
+- Regionales Onlinemarketing       | http://regionales-onlinemarketing.de
+- Zielbar                          | http://www.zielbar.de
+- Toushenne                        | http://www.toushenne.de
+- Alain Veuve                      | http://www.alainveuve.ch
+- E-Strategy                       | http://www.estrategy-magazin.de
+- Lean Content Marketing           | http://lean-content-marketing.com/blog
+- MDS                              | http://www.mds.eu/blog
+- Onlinemarketing Praxis           | http://www.onlinemarketing-praxis.de
+- Online Marketing                 | http://onlinemarketing.de
+- 121 Watt                         | http://www.121watt.de/blog
+- Email Marketing                  | http://www.emailmarketingblog.de
+- Karl Kratz                       | http://www.karlkratz.de/onlinemarketing-blog
+- Selbständig in Netz              | http://www.selbstaendig-im-netz.de
+- Affenblog                        | http://www.affenblog.de/blog
+- Dunegestion                      | http://www.dunegestion.com
+- Conseils Marketing               | http://www.conseilsmarketing.com
+- Plume Interactive                | http://plumeinteractive.canalblog.com
+- 1min30                           | https://www.1min30.com
+- Lean Content Marketing           | http://lean-content-marketing.com/blog
+- Smart Insights Digital Marketing | http://www.smartinsights.com/blog
+- Digital Marketing Institute      | https://digitalmarketinginstitute.com/blog
+- Marketers                        | http://www.marketers.lu
+- The Social CMS                   | https://blog.thesocialms.com
+- Vertcal Measure                  | http://www.verticalmeasures.com/blog
+- Marketing Mag.                   | http://www.marketingmag.ca
+
+*** E-MAIL MARKETING
+- Drip                             | https://www.drip.co/blog
+
+*** SEO
+- Affenblog                        | http://www.affenblog.de/tipps-redaktionsplan
+- In SEO                           | http://www.in-seo.de/blog
+- SEO Tech                         | http://www.seo-tech.de
+- Sumago                           | http://www.sumago.de/blog
+- Sem Deutschland                  | http://www.sem-deutschland.de/online-marketing-tipps
+- Seo United                       | http://www.seo-united.de
+- Seokratie                        | http://www.seokratie.de/blog
+- In Seo                           | http://www.in-seo.de/blog
+- Suchradar                        | http://www.suchradar.de
+- Seo Handbuch                     | http://www.seo-handbuch.de
+- Seo                              | http://seo.at
+- SEO-Trainee                      | http://www.seo-trainee.de
+- Eisy                             | http://www.eisy.eu
+- La revanche des Sites            | http://www.la-revanche-des-sites.fr/blog
+- Internetkapitaene                | http://www.internetkapitaene.de
+- Advanced Web Ranking             | http://www.advancedwebranking.com/blog
+- Blog SEO                         | https://www.seo.fr/blog
+- Searchengine Land                | http://searchengineland.com
+- Searchenginewatch                | https://searchenginewatch.com
+- Searchengine Journal             | https://www.searchenginejournal.com
+- Marketing Land                   | http://marketingland.com
+- Moz                              | https://moz.com/blog
+- Rand                             | https://moz.com/rand
+- Matt Cuts                        | https://www.mattcutts.com/blog
+
+*** WHITEPAPER
+- Ehi Shop                         | https://www.ehi-shop.de/de
+- Ehi Whitepaper                   | https://www.ehi-shop.de/de/whitepaper
+- Haufe                            | http://www.haufe.de
+
+*** STARTUP
+- Foerderland                      | http://www.foerderland.de
+- Deutsche Startups                | https://www.deutsche-startups.de
+- Junge Gründer                    | http://www.junge-gruender.de
+- Silicon.de                       | http://www.silicon.de
+- Start Up                         | http://www.starting-up.de
+- Silicon Frankreich               | http://www.silicon.fr
+
+*** GIT
+- Git SCM                          | https://git-scm.com/blog
+
+*** TOURISMUS
+- Marketing turistico              | http://www.tourismbrain.com/it/blog-web-marketing-turistico
+- Tourismuszukunft                 | http://www.tourismuszukunft.de/blog
+- Gästgewerbe Magazin              | http://gastgewerbe-magazin.de
+- Turismo & Consigli               | http://www.turismoeconsigli.com
+- Tourobs                          | https://www.tourobs.ch/fr
+
+*** MITTELSTAND
+- Mittelstand Bayern               | http://www.mittelstandinbayern.de
+- Lebensmittel Praxis              | http://lebensmittelpraxis.de
+- Supermarktblog                   | http://www.supermarktblog.com
+- Unternehmen Heute                | http://unternehmen-heute.de
+- Trends der Zukunft               | http://www.trendsderzukunft.de
+
+*** HUMAN RESSOURCES
+- Online Recruiting                | http://www.online-recruiting.net/blog
+
+*** PROJECTMANAGEMENT
+- Scrum                            | http://www.ci.de/topics/scrum,15394
+- Scrum Alliance                   | https://www.scrumalliance.org
+- Scrum Expert                     | http://www.scrumexpert.com
+
+*** CRM
+- Relation Client                  | http://www.relationclientmag.fr
+
+*** ERP
+- ERP News                         | https://erp-news.info
+
+*** MONITORING
+- Revanche des sites               | http://www.la-revanche-des-sites.fr/blog
+
+*** IT
+- Inside IT Schweiz                | http://www.inside-it.ch
+- Digital Wallonia                 | https://www.digitalwallonia.be
+- Journal du Net                   | http://www.journaldunet.com
+- Guide CMS                        | https://guidecms.com
+- Itnation                         | http://www.itnation.lu
+- Mediametre                       | http://www.mediametrie.fr
+- Open Source                      | https://opensource.com
+- CMS Critic                       | https://www.cmscritic.com
+- CMS Wire                         | http://www.cmswire.com
+- Pick a Web                       | https://www.pickaweb.co.uk/blog
+- Static Site Generators           | http://www.staticgen.com
