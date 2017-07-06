@@ -1,4 +1,4 @@
-* Blogs
+* BLOGS
 ** BLOGS
 *** GOVERNEMENT
 - E-Governement                    | http://www.egovernment-computing.de
@@ -43,6 +43,8 @@
 - Netcomm                          | http://www.netcommsuisse.ch
 - Ecommerce Europe                 | http://www.ecommerce-europe.eu
 - Dietmar Hölscher                 | https://dietmar.de
+- Kassenzone | https://www.kassenzone.de
+ - Kassenzone Feed | https://www.kassenzone.de/feed
 
 *** KONVERSION
 - Usabilityblog.de                 | http://www.usabilityblog.de
