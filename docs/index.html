@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2017-08-07 Mon 20:17 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title></title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Patrick Schanen" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="styles/readtheorg/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="styles/readtheorg/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="styles/readtheorg/js/readtheorg.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2017 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org8656d23">1. BLOGS</a>
+<ul>
+<li><a href="#org3b79454">1.1. BLOGS</a>
+<ul>
+<li><a href="#org0c3e531">1.1.1. GOVERNEMENT</a></li>
+<li><a href="#org0ccd617">1.1.2. SOCIAL MEDIA</a></li>
+<li><a href="#orgfc0065e">1.1.3. MAGENTO</a></li>
+<li><a href="#org2d5c7d8">1.1.4. COMMERCE</a></li>
+<li><a href="#orge59deb9">1.1.5. KONVERSION</a></li>
+<li><a href="#orgab4519d">1.1.6. UX</a></li>
+<li><a href="#orgb89cbc1">1.1.7. MARKETING</a></li>
+<li><a href="#org7a4afcd">1.1.8. E-MAIL MARKETING</a></li>
+<li><a href="#orgd666b76">1.1.9. SEO</a></li>
+<li><a href="#orgdbcf667">1.1.10. WHITEPAPER</a></li>
+<li><a href="#orgc7452fd">1.1.11. STARTUP</a></li>
+<li><a href="#org894e755">1.1.12. GIT</a></li>
+<li><a href="#org8dcfb54">1.1.13. TOURISMUS</a></li>
+<li><a href="#orgabf4641">1.1.14. MITTELSTAND</a></li>
+<li><a href="#orga55ba46">1.1.15. HUMAN RESSOURCES</a></li>
+<li><a href="#org140ad81">1.1.16. PROJECTMANAGEMENT</a></li>
+<li><a href="#org08621ee">1.1.17. CRM</a></li>
+<li><a href="#org2765b23">1.1.18. ERP</a></li>
+<li><a href="#orgd904dc4">1.1.19. MONITORING</a></li>
+<li><a href="#org999e469">1.1.20. IT</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8656d23" class="outline-2">
+<h2 id="org8656d23"><span class="section-number-2">1</span> BLOGS</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-org3b79454" class="outline-3">
+<h3 id="org3b79454"><span class="section-number-3">1.1</span> BLOGS</h3>
+<div class="outline-text-3" id="text-1-1">
+</div><div id="outline-container-org0c3e531" class="outline-4">
+<h4 id="org0c3e531"><span class="section-number-4">1.1.1</span> GOVERNEMENT</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<ul class="org-ul">
+<li>E-Governement                    | <a href="http://www.egovernment-computing.de">http://www.egovernment-computing.de</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org0ccd617" class="outline-4">
+<h4 id="org0ccd617"><span class="section-number-4">1.1.2</span> SOCIAL MEDIA</h4>
+<div class="outline-text-4" id="text-1-1-2">
+<ul class="org-ul">
+<li>Allfacebook                      | <a href="http://allfacebook.de">http://allfacebook.de</a></li>
+<li>Thomas Hutter                    | <a href="http://www.thomashutter.com">http://www.thomashutter.com</a></li>
+<li>Social Media Talk                | <a href="http://www.socialmedia-talk.com">http://www.socialmedia-talk.com</a></li>
+<li>Social Media Week                | <a href="https://socialmediaweek.org/news">https://socialmediaweek.org/news</a></li>
+<li>My Social Web                    | <a href="http://www.mysocialweb.it">http://www.mysocialweb.it</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgfc0065e" class="outline-4">
+<h4 id="orgfc0065e"><span class="section-number-4">1.1.3</span> MAGENTO</h4>
+<div class="outline-text-4" id="text-1-1-3">
+<ul class="org-ul">
+<li>Alan Storm                       | <a href="http://alanstorm.com">http://alanstorm.com</a></li>
+<li>Magento Quickies                 | <a href="http://magento-quickies.alanstorm.com">http://magento-quickies.alanstorm.com</a></li>
+<li>Limesoda                         | <a href="https://blog.limesoda.com">https://blog.limesoda.com</a></li>
+<li>Aionhill                         | <a href="http://aionhill.com/ecommerce-blog">http://aionhill.com/ecommerce-blog</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org2d5c7d8" class="outline-4">
+<h4 id="org2d5c7d8"><span class="section-number-4">1.1.4</span> COMMERCE</h4>
+<div class="outline-text-4" id="text-1-1-4">
+<ul class="org-ul">
+<li>Ecommerce News                | <a href="http://ecommercenews.eu">http://ecommercenews.eu</a></li>
+<li>E-Commerce News               | <a href="https://ecommerce-news-magazin.de">https://ecommerce-news-magazin.de</a></li>
+<li>Carpathia                     | <a href="http://blog.carpathia.ch">http://blog.carpathia.ch</a></li>
+<li>Content-Driven Commerce       | <a href="http://www.content-driven-ecommerce.de">http://www.content-driven-ecommerce.de</a></li>
+<li>Trusted Shop                  | <a href="http://www.trustedshops.de/shop-info">http://www.trustedshops.de/shop-info</a></li>
+<li>E-Commerce Nation             | <a href="http://www.ecommerce-nation.fr">http://www.ecommerce-nation.fr</a></li>
+<li>Capitain Commerce             | <a href="http://www.capitaine-commerce.com">http://www.capitaine-commerce.com</a></li>
+<li>Black Chili                   | <a href="http://www.blackchili.fr/blog-ecommerce">http://www.blackchili.fr/blog-ecommerce</a></li>
+<li>E-Commerce Mag.               | <a href="http://www.ecommercemag.fr">http://www.ecommercemag.fr</a></li>
+<li>Consomation                   | <a href="http://www.lsa-conso.fr">http://www.lsa-conso.fr</a></li>
+<li>Ecommerce Wiki                | <a href="https://www.ecommercewiki.org">https://www.ecommercewiki.org</a></li>
+<li>European Data Portal          | <a href="http://www.europeandataportal.eu">http://www.europeandataportal.eu</a></li>
+<li>Fedict                        | <a href="http://www.fedict.belgium.be/fr">http://www.fedict.belgium.be/fr</a></li>
+<li>Flupa                         | <a href="http://www.flupa.eu">http://www.flupa.eu</a></li>
+<li>Fevad                         | <a href="http://www.fevad.fr">http://www.fevad.fr</a></li>
+<li>Netcomm                       | <a href="http://www.netcommsuisse.ch/News.html">http://www.netcommsuisse.ch/News.html</a></li>
+<li>BVCM                          | <a href="http://www.bvcm.org">http://www.bvcm.org</a></li>
+<li>KMU Verband                   | <a href="http://www.kmuverband.ch">http://www.kmuverband.ch</a></li>
+<li>Bitkom                        | <a href="https://www.bitkom.org">https://www.bitkom.org</a></li>
+<li>Händlerbund                   | <a href="https://www.haendlerbund.de">https://www.haendlerbund.de</a></li>
+<li>Ecom                          | <a href="http://www.ecom.lu">http://www.ecom.lu</a></li>
+<li>Becommerce                    | <a href="https://www.becommerce.be">https://www.becommerce.be</a></li>
+<li>Ecommerce Foundation          | <a href="http://www.ecommercefoundation.org">http://www.ecommercefoundation.org</a></li>
+<li>Netcomm                       | <a href="http://www.netcommsuisse.ch">http://www.netcommsuisse.ch</a></li>
+<li>Ecommerce Europe              | <a href="http://www.ecommerce-europe.eu">http://www.ecommerce-europe.eu</a></li>
+<li>Dietmar Hölscher              | <a href="https://dietmar.de">https://dietmar.de</a></li>
+<li>Kassenzone			| <a href="https://www.kassenzone.de">https://www.kassenzone.de</a>
+<ul class="org-ul">
+<li>Kassenzone Feed		| <a href="https://www.kassenzone.de/feed">https://www.kassenzone.de/feed</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge59deb9" class="outline-4">
+<h4 id="orge59deb9"><span class="section-number-4">1.1.5</span> KONVERSION</h4>
+<div class="outline-text-4" id="text-1-1-5">
+<ul class="org-ul">
+<li>Usabilityblog.de                 | <a href="http://www.usabilityblog.de">http://www.usabilityblog.de</a></li>
+<li>Conversion Boosting              | <a href="http://conversionboosting.com/blog">http://conversionboosting.com/blog</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgab4519d" class="outline-4">
+<h4 id="orgab4519d"><span class="section-number-4">1.1.6</span> UX</h4>
+<div class="outline-text-4" id="text-1-1-6">
+<ul class="org-ul">
+<li>Ux Fellows                       | <a href="http://www.uxfellows.com/blog">http://www.uxfellows.com/blog</a></li>
+<li>Usability Geek                   | <a href="http://usabilitygeek.com">http://usabilitygeek.com</a></li>
+<li>Weexperience                     | <a href="http://www.wexperience.fr/blog">http://www.wexperience.fr/blog</a></li>
+<li>Usabilitygeek                    | <a href="http://usabilitygeek.com">http://usabilitygeek.com</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgb89cbc1" class="outline-4">
+<h4 id="orgb89cbc1"><span class="section-number-4">1.1.7</span> MARKETING</h4>
+<div class="outline-text-4" id="text-1-1-7">
+<ul class="org-ul">
+<li>B2B Online Marketing			| <a href="http://www.onlinemarketing-blog.de">http://www.onlinemarketing-blog.de</a></li>
+<li>Kerstin Hoffmann			| <a href="http://www.kerstin-hoffmann.de/pr-doktor">http://www.kerstin-hoffmann.de/pr-doktor</a></li>
+<li>Mael Roth				| <a href="http://maelroth.com">http://maelroth.com</a></li>
+<li>Hilker Consulting			| <a href="http://blog.hilker-consulting.de/blog">http://blog.hilker-consulting.de/blog</a></li>
+<li>Regionales Onlinemarketing		| <a href="http://regionales-onlinemarketing.de">http://regionales-onlinemarketing.de</a></li>
+<li>Zielbar				| <a href="http://www.zielbar.de">http://www.zielbar.de</a></li>
+<li>Toushenne				| <a href="http://www.toushenne.de">http://www.toushenne.de</a></li>
+<li>Alain Veuve				| <a href="http://www.alainveuve.ch">http://www.alainveuve.ch</a></li>
+<li>E-Strategy				| <a href="http://www.estrategy-magazin.de">http://www.estrategy-magazin.de</a></li>
+<li>Lean Content Marketing		| <a href="http://lean-content-marketing.com/blog">http://lean-content-marketing.com/blog</a></li>
+<li>MDS					| <a href="http://www.mds.eu/blog">http://www.mds.eu/blog</a></li>
+<li>Onlinemarketing Praxis		| <a href="http://www.onlinemarketing-praxis.de">http://www.onlinemarketing-praxis.de</a></li>
+<li>Online Marketing			| <a href="http://onlinemarketing.de">http://onlinemarketing.de</a></li>
+<li>121 Watt				| <a href="http://www.121watt.de/blog">http://www.121watt.de/blog</a></li>
+<li>Email Marketing			| <a href="http://www.emailmarketingblog.de">http://www.emailmarketingblog.de</a></li>
+<li>Karl Kratz				| <a href="http://www.karlkratz.de/onlinemarketing-blog">http://www.karlkratz.de/onlinemarketing-blog</a></li>
+<li>Selbständig in Netz			| <a href="http://www.selbstaendig-im-netz.de">http://www.selbstaendig-im-netz.de</a></li>
+<li>Affenblog				| <a href="http://www.affenblog.de/blog">http://www.affenblog.de/blog</a></li>
+<li>Dunegestion				| <a href="http://www.dunegestion.com">http://www.dunegestion.com</a></li>
+<li>Conseils Marketing			| <a href="http://www.conseilsmarketing.com">http://www.conseilsmarketing.com</a></li>
+<li>Plume Interactive			| <a href="http://plumeinteractive.canalblog.com">http://plumeinteractive.canalblog.com</a></li>
+<li>1min30				| <a href="https://www.1min30.com">https://www.1min30.com</a></li>
+<li>Lean Content Marketing		| <a href="http://lean-content-marketing.com/blog">http://lean-content-marketing.com/blog</a></li>
+<li>Smart Insights Digital Marketing	| <a href="http://www.smartinsights.com/blog">http://www.smartinsights.com/blog</a></li>
+<li>Digital Marketing Institute		| <a href="https://digitalmarketinginstitute.com/blog">https://digitalmarketinginstitute.com/blog</a></li>
+<li>Marketers				| <a href="http://www.marketers.lu">http://www.marketers.lu</a></li>
+<li>The Social CMS			| <a href="https://blog.thesocialms.com">https://blog.thesocialms.com</a></li>
+<li>Vertcal Measure			| <a href="http://www.verticalmeasures.com/blog">http://www.verticalmeasures.com/blog</a></li>
+<li>Marketing Mag.			| <a href="http://www.marketingmag.ca">http://www.marketingmag.ca</a></li>
+<li>Marketing Schweiz			| <a href="http://www.marketing.ch">http://www.marketing.ch</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7a4afcd" class="outline-4">
+<h4 id="org7a4afcd"><span class="section-number-4">1.1.8</span> E-MAIL MARKETING</h4>
+<div class="outline-text-4" id="text-1-1-8">
+<ul class="org-ul">
+<li>Drip                             | <a href="https://www.drip.co/blog">https://www.drip.co/blog</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd666b76" class="outline-4">
+<h4 id="orgd666b76"><span class="section-number-4">1.1.9</span> SEO</h4>
+<div class="outline-text-4" id="text-1-1-9">
+<ul class="org-ul">
+<li>Affenblog                        | <a href="http://www.affenblog.de/tipps-redaktionsplan">http://www.affenblog.de/tipps-redaktionsplan</a></li>
+<li>In SEO                           | <a href="http://www.in-seo.de/blog">http://www.in-seo.de/blog</a></li>
+<li>SEO Tech                         | <a href="http://www.seo-tech.de">http://www.seo-tech.de</a></li>
+<li>Sumago                           | <a href="http://www.sumago.de/blog">http://www.sumago.de/blog</a></li>
+<li>Sem Deutschland                  | <a href="http://www.sem-deutschland.de/online-marketing-tipps">http://www.sem-deutschland.de/online-marketing-tipps</a></li>
+<li>Seo United                       | <a href="http://www.seo-united.de">http://www.seo-united.de</a></li>
+<li>Seokratie                        | <a href="http://www.seokratie.de/blog">http://www.seokratie.de/blog</a></li>
+<li>In Seo                           | <a href="http://www.in-seo.de/blog">http://www.in-seo.de/blog</a></li>
+<li>Suchradar                        | <a href="http://www.suchradar.de">http://www.suchradar.de</a></li>
+<li>Seo Handbuch                     | <a href="http://www.seo-handbuch.de">http://www.seo-handbuch.de</a></li>
+<li>Seo                              | <a href="http://seo.at">http://seo.at</a></li>
+<li>SEO-Trainee                      | <a href="http://www.seo-trainee.de">http://www.seo-trainee.de</a></li>
+<li>Eisy                             | <a href="http://www.eisy.eu">http://www.eisy.eu</a></li>
+<li>La revanche des Sites            | <a href="http://www.la-revanche-des-sites.fr/blog">http://www.la-revanche-des-sites.fr/blog</a></li>
+<li>Internetkapitaene                | <a href="http://www.internetkapitaene.de">http://www.internetkapitaene.de</a></li>
+<li>Advanced Web Ranking             | <a href="http://www.advancedwebranking.com/blog">http://www.advancedwebranking.com/blog</a></li>
+<li>Blog SEO                         | <a href="https://www.seo.fr/blog">https://www.seo.fr/blog</a></li>
+<li>Searchengine Land                | <a href="http://searchengineland.com">http://searchengineland.com</a></li>
+<li>Searchenginewatch                | <a href="https://searchenginewatch.com">https://searchenginewatch.com</a></li>
+<li>Searchengine Journal             | <a href="https://www.searchenginejournal.com">https://www.searchenginejournal.com</a></li>
+<li>Marketing Land                   | <a href="http://marketingland.com">http://marketingland.com</a></li>
+<li>Moz                              | <a href="https://moz.com/blog">https://moz.com/blog</a></li>
+<li>Rand                             | <a href="https://moz.com/rand">https://moz.com/rand</a></li>
+<li>Matt Cuts                        | <a href="https://www.mattcutts.com/blog">https://www.mattcutts.com/blog</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgdbcf667" class="outline-4">
+<h4 id="orgdbcf667"><span class="section-number-4">1.1.10</span> WHITEPAPER</h4>
+<div class="outline-text-4" id="text-1-1-10">
+<ul class="org-ul">
+<li>Ehi Shop                         | <a href="https://www.ehi-shop.de/de">https://www.ehi-shop.de/de</a></li>
+<li>Ehi Whitepaper                   | <a href="https://www.ehi-shop.de/de/whitepaper">https://www.ehi-shop.de/de/whitepaper</a></li>
+<li>Haufe                            | <a href="http://www.haufe.de">http://www.haufe.de</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgc7452fd" class="outline-4">
+<h4 id="orgc7452fd"><span class="section-number-4">1.1.11</span> STARTUP</h4>
+<div class="outline-text-4" id="text-1-1-11">
+<ul class="org-ul">
+<li>Foerderland                      | <a href="http://www.foerderland.de">http://www.foerderland.de</a></li>
+<li>Deutsche Startups                | <a href="https://www.deutsche-startups.de">https://www.deutsche-startups.de</a></li>
+<li>Junge Gründer                    | <a href="http://www.junge-gruender.de">http://www.junge-gruender.de</a></li>
+<li>Silicon.de                       | <a href="http://www.silicon.de">http://www.silicon.de</a></li>
+<li>Start Up                         | <a href="http://www.starting-up.de">http://www.starting-up.de</a></li>
+<li>Silicon Frankreich               | <a href="http://www.silicon.fr">http://www.silicon.fr</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org894e755" class="outline-4">
+<h4 id="org894e755"><span class="section-number-4">1.1.12</span> GIT</h4>
+<div class="outline-text-4" id="text-1-1-12">
+<ul class="org-ul">
+<li>Git SCM                          | <a href="https://git-scm.com/blog">https://git-scm.com/blog</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org8dcfb54" class="outline-4">
+<h4 id="org8dcfb54"><span class="section-number-4">1.1.13</span> TOURISMUS</h4>
+<div class="outline-text-4" id="text-1-1-13">
+<ul class="org-ul">
+<li>Marketing turistico              | <a href="http://www.tourismbrain.com/it/blog-web-marketing-turistico">http://www.tourismbrain.com/it/blog-web-marketing-turistico</a></li>
+<li>Tourismuszukunft                 | <a href="http://www.tourismuszukunft.de/blog">http://www.tourismuszukunft.de/blog</a></li>
+<li>Gästgewerbe Magazin              | <a href="http://gastgewerbe-magazin.de">http://gastgewerbe-magazin.de</a></li>
+<li>Turismo &amp; Consigli               | <a href="http://www.turismoeconsigli.com">http://www.turismoeconsigli.com</a></li>
+<li>Tourobs                          | <a href="https://www.tourobs.ch/fr">https://www.tourobs.ch/fr</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgabf4641" class="outline-4">
+<h4 id="orgabf4641"><span class="section-number-4">1.1.14</span> MITTELSTAND</h4>
+<div class="outline-text-4" id="text-1-1-14">
+<ul class="org-ul">
+<li>Mittelstand Bayern               | <a href="http://www.mittelstandinbayern.de">http://www.mittelstandinbayern.de</a></li>
+<li>Lebensmittel Praxis              | <a href="http://lebensmittelpraxis.de">http://lebensmittelpraxis.de</a></li>
+<li>Supermarktblog                   | <a href="http://www.supermarktblog.com">http://www.supermarktblog.com</a></li>
+<li>Unternehmen Heute                | <a href="http://unternehmen-heute.de">http://unternehmen-heute.de</a></li>
+<li>Trends der Zukunft               | <a href="http://www.trendsderzukunft.de">http://www.trendsderzukunft.de</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orga55ba46" class="outline-4">
+<h4 id="orga55ba46"><span class="section-number-4">1.1.15</span> HUMAN RESSOURCES</h4>
+<div class="outline-text-4" id="text-1-1-15">
+<ul class="org-ul">
+<li>Online Recruiting                | <a href="http://www.online-recruiting.net/blog">http://www.online-recruiting.net/blog</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org140ad81" class="outline-4">
+<h4 id="org140ad81"><span class="section-number-4">1.1.16</span> PROJECTMANAGEMENT</h4>
+<div class="outline-text-4" id="text-1-1-16">
+<ul class="org-ul">
+<li>Scrum                            | <a href="http://www.ci.de/topics/scrum,15394">http://www.ci.de/topics/scrum,15394</a></li>
+<li>Scrum Alliance                   | <a href="https://www.scrumalliance.org">https://www.scrumalliance.org</a></li>
+<li>Scrum Expert                     | <a href="http://www.scrumexpert.com">http://www.scrumexpert.com</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org08621ee" class="outline-4">
+<h4 id="org08621ee"><span class="section-number-4">1.1.17</span> CRM</h4>
+<div class="outline-text-4" id="text-1-1-17">
+<ul class="org-ul">
+<li>Relation Client                  | <a href="http://www.relationclientmag.fr">http://www.relationclientmag.fr</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org2765b23" class="outline-4">
+<h4 id="org2765b23"><span class="section-number-4">1.1.18</span> ERP</h4>
+<div class="outline-text-4" id="text-1-1-18">
+<ul class="org-ul">
+<li>ERP News                         | <a href="https://erp-news.info">https://erp-news.info</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd904dc4" class="outline-4">
+<h4 id="orgd904dc4"><span class="section-number-4">1.1.19</span> MONITORING</h4>
+<div class="outline-text-4" id="text-1-1-19">
+<ul class="org-ul">
+<li>Revanche des sites               | <a href="http://www.la-revanche-des-sites.fr/blog">http://www.la-revanche-des-sites.fr/blog</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org999e469" class="outline-4">
+<h4 id="org999e469"><span class="section-number-4">1.1.20</span> IT</h4>
+<div class="outline-text-4" id="text-1-1-20">
+<ul class="org-ul">
+<li>Inside IT Schweiz                | <a href="http://www.inside-it.ch">http://www.inside-it.ch</a></li>
+<li>Digital Wallonia                 | <a href="https://www.digitalwallonia.be">https://www.digitalwallonia.be</a></li>
+<li>Journal du Net                   | <a href="http://www.journaldunet.com">http://www.journaldunet.com</a></li>
+<li>Guide CMS                        | <a href="https://guidecms.com">https://guidecms.com</a></li>
+<li>Itnation                         | <a href="http://www.itnation.lu">http://www.itnation.lu</a></li>
+<li>Mediametre                       | <a href="http://www.mediametrie.fr">http://www.mediametrie.fr</a></li>
+<li>Open Source                      | <a href="https://opensource.com">https://opensource.com</a></li>
+<li>CMS Critic                       | <a href="https://www.cmscritic.com">https://www.cmscritic.com</a></li>
+<li>CMS Wire                         | <a href="http://www.cmswire.com">http://www.cmswire.com</a></li>
+<li>Pick a Web                       | <a href="https://www.pickaweb.co.uk/blog">https://www.pickaweb.co.uk/blog</a></li>
+<li>Static Site Generators           | <a href="http://www.staticgen.com">http://www.staticgen.com</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Patrick Schanen</p>
+<p class="date">Created: 2017-08-07 Mon 20:17</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
