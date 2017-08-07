@@ -1,5 +1,4 @@
-* BLOGS
-** BLOGS
+#+SETUPFILE: theme-readtheorg-local.setup
 *** GOVERNEMENT
 - E-Governement                    | http://www.egovernment-computing.de
 
